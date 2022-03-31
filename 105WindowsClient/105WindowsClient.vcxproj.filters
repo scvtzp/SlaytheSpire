@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{c5e7e41b-84d0-4c1e-8cc6-1245f859c59b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{a304088c-c53d-486b-a090-eca33e950caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{d39b8def-764b-45ed-9b01-bae8c2e012e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj">
+      <UniqueIdentifier>{2d6f1cb9-3a6e-49a1-871f-164f184c9902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Device">
+      <UniqueIdentifier>{64ba059b-e176-465a-b679-c49e8fc5e787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Texture">
+      <UniqueIdentifier>{cd68d008-7af0-42b8-8676-eac4588d86db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Texture\00.SingleTex">
+      <UniqueIdentifier>{eb040d12-f8dc-4c4d-8765-1e5c24b11de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Texture\01.MultiTex">
+      <UniqueIdentifier>{b83b26f9-cfed-4c32-944d-067960c56a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager">
+      <UniqueIdentifier>{9d6b6020-dca0-46c0-8f19-6385c06e6dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\00.TextureMgr">
+      <UniqueIdentifier>{693935b7-c7f2-42ee-91ea-557a81781507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\01.ObjMgr">
+      <UniqueIdentifier>{ede71fe7-42fe-4498-90c8-58726f55e4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\02.SceneMgr">
+      <UniqueIdentifier>{2ab3170e-8b6d-4409-9ed0-1097ddfd728b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene">
+      <UniqueIdentifier>{c0f01294-0675-4a7d-a9da-89b079897a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\03.ScrollMgr">
+      <UniqueIdentifier>{c946dc7a-bab2-4276-98b0-1288bc67f723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\04.TimeMgr">
+      <UniqueIdentifier>{e31f3a01-2941-41f8-a8ac-0a14b2a6c374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\05.FrameMgr">
+      <UniqueIdentifier>{29c4cacd-7b35-4100-8a7b-9ab81ad84d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\02. Card">
+      <UniqueIdentifier>{52719df6-29ec-4056-a7a5-1fc652b8090e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01. Monster">
+      <UniqueIdentifier>{a608ac60-057b-474a-be82-ab1569e6a2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\06.CollisionMgr">
+      <UniqueIdentifier>{036ebf6a-2635-48e0-9710-7d2d9c0fec7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\03. CardID">
+      <UniqueIdentifier>{74402225-e231-4302-bcc9-925eae1a8896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\07. KeyMgr">
+      <UniqueIdentifier>{45ce2370-4172-44f7-b0c4-7a40ed1c18bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\04. Button">
+      <UniqueIdentifier>{70e979a7-4b21-410e-a3f0-f35043202cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\08. EffectMgr">
+      <UniqueIdentifier>{a019acf4-bc07-4152-8368-64558f35147c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\00. Characters">
+      <UniqueIdentifier>{5f53ccdf-4842-451d-9f60-a5422f22f7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\00. Characters\00.Player">
+      <UniqueIdentifier>{3b33c439-b88c-4fc9-a0fd-6b120e76db7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\02. BOSS">
+      <UniqueIdentifier>{9e1aa01e-0522-4be5-946d-388e6a57483d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\02. BOSS\00. Stage_Guardian">
+      <UniqueIdentifier>{834c4db4-de9a-4acc-a291-fca34752b1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00. default">
+      <UniqueIdentifier>{32a0d700-ce16-4add-8ceb-bdaa9dc518d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00. default\00. Title">
+      <UniqueIdentifier>{77a3b3d4-0d0b-4457-92a6-ed4f79662678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00. default\01. Select_Player">
+      <UniqueIdentifier>{2fc6502c-8256-4e24-bb1e-ba870fd92490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00. default\02. Map">
+      <UniqueIdentifier>{f41d25e4-fe6d-4a83-9d28-8a902ff1a7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\01. Stage">
+      <UniqueIdentifier>{0ccf8674-d84b-4498-8ccb-6fb02604302e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\01. Stage\00. Stage">
+      <UniqueIdentifier>{b61e6602-881f-4037-b199-982c3097cf1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\01. Stage\01. Stage_lottor">
+      <UniqueIdentifier>{1bc5605a-f2f5-455f-b272-46cd168a9ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\01. Stage\02. Stage_byrd">
+      <UniqueIdentifier>{79745de0-1c2c-4b0e-9d77-2695da3be4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\01. Stage\03. Stage_Darkling">
+      <UniqueIdentifier>{bbf862ca-185a-4e1d-8e1b-6e494c746e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\01. Stage\04. Stage_GiantHead">
+      <UniqueIdentifier>{e2bbd331-e37b-421c-a661-510ce22e9b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\01. Stage\05. Stage_Transient">
+      <UniqueIdentifier>{33002dc6-db0b-44ac-904f-7895f48c2b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01. Monster\01. BOSS">
+      <UniqueIdentifier>{d0ae8c64-c112-4253-914b-a72912498263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01. Monster\00. Monster">
+      <UniqueIdentifier>{80ada7a2-906e-456d-bd59-cfbdcc5ec10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01. Monster\00. Monster\06. GiantHead">
+      <UniqueIdentifier>{8b9a5e86-2bb2-41dd-a0a2-c9976f3f47a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01. Monster\00. Monster\05. Darkling">
+      <UniqueIdentifier>{26783778-cf3c-4171-b428-7de4f02b955c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01. Monster\00. Monster\04. Byrd">
+      <UniqueIdentifier>{481ff369-e086-41b7-a0f6-7ea7b7c05866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01. Monster\00. Monster\03. Looter">
+      <UniqueIdentifier>{15c0dd8a-2580-4c1d-bdbd-6ca790488955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01. Monster\00. Monster\00. TestMonster">
+      <UniqueIdentifier>{ce1d3b56-3c02-4328-b9c8-75100bbc39d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01. Monster\00. Monster\07. Transient">
+      <UniqueIdentifier>{00d7c640-eef7-4b21-bc3c-44fe0a37cf77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01. Monster\01. BOSS\00. Guardian">
+      <UniqueIdentifier>{e0c15c21-981a-4015-9a6f-3e6864672633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01. Monster\01. BOSS\02. DonuandDeca">
+      <UniqueIdentifier>{02724f90-6bd5-411b-9150-91335beb20d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\02. BOSS\01. Stage_DoDe">
+      <UniqueIdentifier>{7e3a0242-4339-4688-b413-764382ac571a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\02. BOSS\02. Stage_Hexa">
+      <UniqueIdentifier>{ed268970-79b6-4c88-a032-0e5ac71ca4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01. Monster\01. BOSS\03. Hexa">
+      <UniqueIdentifier>{998fada5-ce44-4e46-afa1-10745650c65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01. Monster\00. Monster\02. Slime">
+      <UniqueIdentifier>{392d04f8-5502-4c9a-b3e1-5a7771f235ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\09. SoundMgr">
+      <UniqueIdentifier>{4605dcad-5757-4d7c-b474-deabd8b78a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00. default\03. Map2">
+      <UniqueIdentifier>{2ba23bc5-ab8a-45a4-b7ec-c39eeccaa5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00. default\04. Map3">
+      <UniqueIdentifier>{eed9d5a0-3014-43eb-bbd9-dcd6aea73c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00. default\06. Camp">
+      <UniqueIdentifier>{9473ee3b-2d28-4405-b548-4c383bb5ad45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00. default\05. Shop">
+      <UniqueIdentifier>{64249e91-2963-4b38-9240-f71b73f89f6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="105WindowsClient.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01.Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.Obj\00. Characters\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>97.Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>02.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTex.h">
+      <Filter>02.Texture\00.SingleTex</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTex.h">
+      <Filter>02.Texture\01.MultiTex</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>96.Manager\00.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>96.Manager\01.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>96.Manager\02.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>03.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>03.Scene\01. Stage\00. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>96.Manager\03.ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>96.Manager\04.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>01.Obj\02. Card</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameMgr.h">
+      <Filter>96.Manager\05.FrameMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMonster.h">
+      <Filter>01.Obj\01. Monster\00. Monster\00. TestMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>96.Manager\06.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CardID.h">
+      <Filter>01.Obj\03. CardID</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>96.Manager\07. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Guardian.h">
+      <Filter>01.Obj\01. Monster\01. BOSS\00. Guardian</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_Guardian.h">
+      <Filter>03.Scene\02. BOSS\00. Stage_Guardian</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01.Obj\01. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectMgr.h">
+      <Filter>96.Manager\08. EffectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>01.Obj\04. Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>03.Scene\00. default\05. Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>03.Scene\00. default\00. Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Select_Player.h">
+      <Filter>03.Scene\00. default\01. Select_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMap.h">
+      <Filter>03.Scene\00. default\02. Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Characters.h">
+      <Filter>01.Obj\00. Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Looter.h">
+      <Filter>01.Obj\01. Monster\00. Monster\03. Looter</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_lotter.h">
+      <Filter>03.Scene\01. Stage\01. Stage_lottor</Filter>
+    </ClInclude>
+    <ClInclude Include="Byrd.h">
+      <Filter>01.Obj\01. Monster\00. Monster\04. Byrd</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_byrd.h">
+      <Filter>03.Scene\01. Stage\02. Stage_byrd</Filter>
+    </ClInclude>
+    <ClInclude Include="Darkling.h">
+      <Filter>01.Obj\01. Monster\00. Monster\05. Darkling</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_Darkling.h">
+      <Filter>03.Scene\01. Stage\03. Stage_Darkling</Filter>
+    </ClInclude>
+    <ClInclude Include="GiantHead.h">
+      <Filter>01.Obj\01. Monster\00. Monster\06. GiantHead</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_GiantHead.h">
+      <Filter>03.Scene\01. Stage\04. Stage_GiantHead</Filter>
+    </ClInclude>
+    <ClInclude Include="Transient.h">
+      <Filter>01.Obj\01. Monster\00. Monster\07. Transient</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_Transient.h">
+      <Filter>03.Scene\01. Stage\05. Stage_Transient</Filter>
+    </ClInclude>
+    <ClInclude Include="Deca.h">
+      <Filter>01.Obj\01. Monster\01. BOSS\02. DonuandDeca</Filter>
+    </ClInclude>
+    <ClInclude Include="Donu.h">
+      <Filter>01.Obj\01. Monster\01. BOSS\02. DonuandDeca</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_DoDe.h">
+      <Filter>03.Scene\02. BOSS\01. Stage_DoDe</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_Hexa.h">
+      <Filter>03.Scene\02. BOSS\02. Stage_Hexa</Filter>
+    </ClInclude>
+    <ClInclude Include="Hexa.h">
+      <Filter>01.Obj\01. Monster\01. BOSS\03. Hexa</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>96.Manager\09. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMap2.h">
+      <Filter>03.Scene\00. default\03. Map2</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMap3.h">
+      <Filter>03.Scene\00. default\04. Map3</Filter>
+    </ClInclude>
+    <ClInclude Include="Camp.h">
+      <Filter>03.Scene\00. default\06. Camp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="105WindowsClient.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01.Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.Obj\00. Characters\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>97.Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>02.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTex.cpp">
+      <Filter>02.Texture\00.SingleTex</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTex.cpp">
+      <Filter>02.Texture\01.MultiTex</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>96.Manager\00.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>96.Manager\01.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>96.Manager\02.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>03.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>03.Scene\01. Stage\00. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>96.Manager\03.ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>96.Manager\04.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>01.Obj\02. Card</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameMgr.cpp">
+      <Filter>96.Manager\05.FrameMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMonster.cpp">
+      <Filter>01.Obj\01. Monster\00. Monster\00. TestMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>96.Manager\06.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CardID.cpp">
+      <Filter>01.Obj\03. CardID</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>96.Manager\07. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Guardian.cpp">
+      <Filter>01.Obj\01. Monster\01. BOSS\00. Guardian</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_Guardian.cpp">
+      <Filter>03.Scene\02. BOSS\00. Stage_Guardian</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01.Obj\01. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>01.Obj\04. Button</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectMgr.cpp">
+      <Filter>96.Manager\08. EffectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>03.Scene\00. default\05. Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>03.Scene\00. default\00. Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Select_Player.cpp">
+      <Filter>03.Scene\00. default\01. Select_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMap.cpp">
+      <Filter>03.Scene\00. default\02. Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Characters.cpp">
+      <Filter>01.Obj\00. Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Looter.cpp">
+      <Filter>01.Obj\01. Monster\00. Monster\03. Looter</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_lotter.cpp">
+      <Filter>03.Scene\01. Stage\01. Stage_lottor</Filter>
+    </ClCompile>
+    <ClCompile Include="Byrd.cpp">
+      <Filter>01.Obj\01. Monster\00. Monster\04. Byrd</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_byrd.cpp">
+      <Filter>03.Scene\01. Stage\02. Stage_byrd</Filter>
+    </ClCompile>
+    <ClCompile Include="Darkling.cpp">
+      <Filter>01.Obj\01. Monster\00. Monster\05. Darkling</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_Darkling.cpp">
+      <Filter>03.Scene\01. Stage\03. Stage_Darkling</Filter>
+    </ClCompile>
+    <ClCompile Include="GiantHead.cpp">
+      <Filter>01.Obj\01. Monster\00. Monster\06. GiantHead</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_GiantHead.cpp">
+      <Filter>03.Scene\01. Stage\04. Stage_GiantHead</Filter>
+    </ClCompile>
+    <ClCompile Include="Transient.cpp">
+      <Filter>01.Obj\01. Monster\00. Monster\07. Transient</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_Transient.cpp">
+      <Filter>03.Scene\01. Stage\05. Stage_Transient</Filter>
+    </ClCompile>
+    <ClCompile Include="Deca.cpp">
+      <Filter>01.Obj\01. Monster\01. BOSS\02. DonuandDeca</Filter>
+    </ClCompile>
+    <ClCompile Include="Donu.cpp">
+      <Filter>01.Obj\01. Monster\01. BOSS\02. DonuandDeca</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_DoDe.cpp">
+      <Filter>03.Scene\02. BOSS\01. Stage_DoDe</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_Hexa.cpp">
+      <Filter>03.Scene\02. BOSS\02. Stage_Hexa</Filter>
+    </ClCompile>
+    <ClCompile Include="Hexa.cpp">
+      <Filter>01.Obj\01. Monster\01. BOSS\03. Hexa</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>96.Manager\09. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMap2.cpp">
+      <Filter>03.Scene\00. default\03. Map2</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMap3.cpp">
+      <Filter>03.Scene\00. default\04. Map3</Filter>
+    </ClCompile>
+    <ClCompile Include="Camp.cpp">
+      <Filter>03.Scene\00. default\06. Camp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="105WindowsClient.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="105WindowsClient.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

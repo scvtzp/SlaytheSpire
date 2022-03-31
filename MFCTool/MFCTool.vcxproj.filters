@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{015ee83c-985a-4176-b6eb-f41fe53e270d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Device">
+      <UniqueIdentifier>{b63f2b72-56cb-4b89-a12f-d9adf1d86b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager">
+      <UniqueIdentifier>{45fbbbcf-d60e-4eff-9ac9-f6126aa72653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainFrame">
+      <UniqueIdentifier>{9812254c-c1f8-4fff-b0a6-06fc2b6363d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View">
+      <UniqueIdentifier>{05162a82-c0dd-4a8c-ade6-338cd634b3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainApp">
+      <UniqueIdentifier>{6dd5d21d-323b-40c4-93f5-6a5b77865348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Document">
+      <UniqueIdentifier>{04ca00fd-8203-4bde-bbca-2b68eb4ee387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Texture">
+      <UniqueIdentifier>{f43d0a94-9f70-4692-9002-b8302215901d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\00.TextureMgr">
+      <UniqueIdentifier>{25479d08-2633-4cc7-be55-28a3b37278ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Texture\MultiTex">
+      <UniqueIdentifier>{3073cea0-96d3-458c-9562-ec7b21b705ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Texture\SingleTex">
+      <UniqueIdentifier>{0db3a356-a1f9-4d3f-9798-69427ab64eb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{5ef9d7fe-67a8-4d53-9663-93612b6ef8ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\FormView">
+      <UniqueIdentifier>{7351de6c-d75f-4470-8b20-2591f4364c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\MiniView">
+      <UniqueIdentifier>{7456cdd0-3144-4df3-81f9-f676e06faa1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\FormView\UnitTool">
+      <UniqueIdentifier>{d05bc42f-13c8-48af-8d51-596a4f6365b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\FormView\MapTool">
+      <UniqueIdentifier>{0f4ea923-e321-46a1-802c-af796d2298fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.FileInfo">
+      <UniqueIdentifier>{7823d91e-390e-4db8-bc62-633f0995b1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\FormView\PropertySheet">
+      <UniqueIdentifier>{ca0a0341-880d-45ed-b967-cec98e475ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\FormView\PathFind">
+      <UniqueIdentifier>{7ef28023-aaca-4cdb-bb12-eba769272026}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFCToolView.h">
+      <Filter>01.View</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCToolDoc.h">
+      <Filter>03.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCTool.h">
+      <Filter>02.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>04.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTex.h">
+      <Filter>04.Texture\SingleTex</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>98.Device</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>01.View\FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniView.h">
+      <Filter>01.View\MiniView</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTool.h">
+      <Filter>01.View\FormView\UnitTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>01.View\FormView\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>97.Manager\00.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTex.h">
+      <Filter>04.Texture\MultiTex</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPropertySheet.h">
+      <Filter>01.View\FormView\PropertySheet</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPage1.h">
+      <Filter>01.View\FormView\PropertySheet</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPage2.h">
+      <Filter>01.View\FormView\PropertySheet</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>05.FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFine.h">
+      <Filter>01.View\FormView\PathFind</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCToolView.cpp">
+      <Filter>01.View</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCToolDoc.cpp">
+      <Filter>03.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCTool.cpp">
+      <Filter>02.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>04.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTex.cpp">
+      <Filter>04.Texture\SingleTex</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>98.Device</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>01.View\FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniView.cpp">
+      <Filter>01.View\MiniView</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTool.cpp">
+      <Filter>01.View\FormView\UnitTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>01.View\FormView\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTex.cpp">
+      <Filter>04.Texture\MultiTex</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>97.Manager\00.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPropertySheet.cpp">
+      <Filter>01.View\FormView\PropertySheet</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPage1.cpp">
+      <Filter>01.View\FormView\PropertySheet</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPage2.cpp">
+      <Filter>01.View\FormView\PropertySheet</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>05.FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFine.cpp">
+      <Filter>01.View\FormView\PathFind</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCTool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\MFCToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCTool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCTool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

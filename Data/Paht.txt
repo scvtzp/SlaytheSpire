@@ -1,0 +1,1 @@
+..\Texture\Stage\Player\Attack\AKIHA_AKI01_000.png | Player | Stand | 12
